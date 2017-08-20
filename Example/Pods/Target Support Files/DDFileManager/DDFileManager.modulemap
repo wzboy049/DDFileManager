@@ -1,0 +1,6 @@
+framework module DDFileManager {
+  umbrella header "DDFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

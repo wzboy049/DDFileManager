@@ -1,0 +1,16 @@
+PODS:
+  - DDFileManager (0.1.0)
+
+DEPENDENCIES:
+  - DDFileManager (from `../`)
+
+EXTERNAL SOURCES:
+  DDFileManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DDFileManager: 634d32b5c9a67d3f45e7b5099878a49761ac3a25
+
+PODFILE CHECKSUM: d32f862053fd0ff46208962c1a7d52d89ce89e75
+
+COCOAPODS: 1.2.1

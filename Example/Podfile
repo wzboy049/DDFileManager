@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDFileManager_Example' do
+  pod 'DDFileManager', :path => '../'
+
+  target 'DDFileManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
