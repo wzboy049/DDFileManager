@@ -13,6 +13,11 @@
 #import "DDFileInforCell.h"
 #import "SCSTableHeaderView.h"
 
+/** 将rgb转成颜色 */
+UIColor * RGBColor_dd(CGFloat r, CGFloat g, CGFloat b){
+    return [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1];
+}
+
 
 
 

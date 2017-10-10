@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDFileManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'a wraper of NSFileManager.'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'DDFileManager/Classes/**/*'
   
-   s.resource_bundles = {
-     'DDFileManager' => ['DDFileManager/Assets/*.png']
-   }
+  s.resource = 'DDFileManager/DDFileManager.bundle'
+
 
   #s.public_header_files = 'Pod/Classes/DDFileManager.h'
   # s.frameworks = 'UIKit', 'MapKit'

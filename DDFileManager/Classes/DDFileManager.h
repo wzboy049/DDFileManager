@@ -9,7 +9,6 @@
 #ifndef DDFileManager_h
 #define DDFileManager_h
 
-#import "FunctionTool.h"
 
 #import "DDFileInforCell.h"
 #import "DDFileManagerViewController.h"

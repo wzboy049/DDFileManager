@@ -15,6 +15,8 @@
 
 #import "DDFileModel.h"
 
+#import "NSBundle+DDFileManager.h"
+
 
 @interface SCSTableHeaderView ()
 
@@ -61,7 +63,8 @@
             [btn setImage:[UIImage new] forState:UIControlStateNormal];
             [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         }else {
-            [btn setImage:[UIImage imageNamed:@"CreatTask_accessory"] forState:UIControlStateNormal];
+            [btn setImage:[NSBundle imageFromFileBundle:@"CreatTask_accessory"] forState:UIControlStateNormal];
+//            [btn setImage:[UIImage imageNamed:@"CreatTask_accessory"] forState:UIControlStateNormal];
             [btn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
         }
         

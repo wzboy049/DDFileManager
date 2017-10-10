@@ -14,7 +14,7 @@
 #import "DDFileManager.h"
 #import "DDFileManagerViewController.h"
 #import "DDFileModel.h"
-#import "FunctionTool.h"
+
 #import "SCSCustomeButton.h"
 #import "SCSTableHeaderView.h"
 #import "UIView+Frame.h"

@@ -10,6 +10,10 @@
 
 #import "DDFileModel.h"
 
+// 弱引用
+#define Weak_Self __weak typeof(self) weakSelf = self
+#define NAV_BAR_HEIGHT 44                       //导航栏高度
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
 #define kSCSTableHeaderViewFrame CGRectMake(0, 0, SCREEN_WIDTH, NAV_BAR_HEIGHT)
 
 @interface SCSTableHeaderView : UIView

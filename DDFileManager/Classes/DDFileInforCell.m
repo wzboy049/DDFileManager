@@ -8,6 +8,8 @@
 
 #import "DDFileInforCell.h"
 
+#import "NSBundle+DDFileManager.h"
+
 @implementation DDFileInforCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
@@ -24,10 +26,12 @@
     self.detailTextLabel.text = [NSString stringWithFormat:@"size:%@",fileModel.NSFileSize];
     
     if (fileModel.isDirectory) {
-        self.imageView.image = [UIImage imageNamed:@"GenericFolderIcon"];
+//        self.imageView.image = [UIImage imageNamed:@"GenericFolderIcon"];
+        self.imageView.image = [NSBundle imageFromFileBundle:@"GenericFolderIcon"];
         self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }else{
-        self.imageView.image = [UIImage imageNamed:@"SidebarDocumentsFolder"];
+//        self.imageView.image = [UIImage imageNamed:@"SidebarDocumentsFolder"];
+        self.imageView.image = [NSBundle imageFromFileBundle:@"SidebarDocumentsFolder"];
         self.accessoryType = UITableViewCellAccessoryNone;
     }
 }
