@@ -8,8 +8,6 @@
 
 #import "DDFileManagerViewController.h"
 
-#import "DDFileManager.h"
-
 #import "DDFileInforCell.h"
 #import "SCSTableHeaderView.h"
 
@@ -186,7 +184,20 @@ UIColor * RGBColor_dd(CGFloat r, CGFloat g, CGFloat b){
     if (!_currentModel) {
         _currentModel = [DDFileModel new];
         _currentModel.showName = @"root";
-        _currentModel.fullPath = NSHomeDirectory();
+        switch (_startType) {
+                case DDStartFolderTypeDocument:{
+                    _currentModel.fullPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, true) lastObject];
+                    break;
+                }
+                case DDStartFolderTypeCache:{
+                    _currentModel.fullPath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, true) lastObject];
+                    break;
+                }
+            default:{
+                _currentModel.fullPath = NSHomeDirectory();
+                break;
+            }
+        }
         _currentModel.NSFileType = NSFileTypeDirectory;
         _currentModel.NSFileSize = [self.fileManager attributesOfItemAtPath:NSHomeDirectory() error:nil][@"NSFileSize"];
     }

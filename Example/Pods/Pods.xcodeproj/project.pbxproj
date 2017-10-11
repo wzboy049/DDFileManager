@@ -8,121 +8,106 @@
 
 /* Begin PBXBuildFile section */
 		058522CEDDA14DA083FCE038413B44AD /* Pods-DDFileManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B47FB36CC09642D1B063323F8C4BA8DD /* Pods-DDFileManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A561477A80859E391094B10D848D704 /* DDFileManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A790664B3C7FE3DA9C06E4C90C4C4E52 /* DDFileManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20793CA4AD9E5E6A35E4B0747D5A9D10 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0050A1EF2FD9C2D0FAEC1E9331E346DC /* UIView+Frame.m */; };
-		2EEA53C1EF19BC0DFE90A2DF57A0DFE3 /* DDFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 081DFD1D94CD9A4354AB69E116D72568 /* DDFileModel.m */; };
+		108A1FC42B6603B8646BF3FA1BA0CBE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		173F078C728535A0E829BF2CE9D74B3D /* DDFileInforCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 981FA29FD0CCFFDFF0A49DFBBBA7A3BC /* DDFileInforCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F0127536875834B0E79EDD125DD446 /* DDFileManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E5DCC1E0FF1885EE305416E6A69D26 /* DDFileManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3513183B7F30544190CEABB3AC41A571 /* DDFileManagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81862DDF9E2E4307C8C08C5C9FA54511 /* DDFileManagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37752E6AA900429F143FE72D9C543DCA /* Pods-DDFileManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94475848171A64CA3E3B41A2F3B4F1B2 /* Pods-DDFileManager_Example-dummy.m */; };
 		443FC124FEA620A88C053350A2F09B17 /* Pods-DDFileManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A350FFA1BC25F839A14A5AAC9110BFF4 /* Pods-DDFileManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45855BC2AD3126293B4520C3C65E1A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		578D03AB1080BEBE0E5105B0DA9A505B /* SCSTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 293FC26EA6AC7312E3505AE0EBF9AB73 /* SCSTableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D613EC72B9D105764E5E3E4CBCB92B9 /* DDFileManagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5F9F9060FA93D9314E610E48D1A787 /* DDFileManagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46E5DF5E8730EFAD3C62345C40C0B106 /* DDFileInforCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC93FDFD59FD78551C7616468FEFF85 /* DDFileInforCell.m */; };
 		62C9146AB33309A2294BF25C1C066315 /* Pods-DDFileManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5E304B63B1FB5AFEF3CB20B05A584 /* Pods-DDFileManager_Tests-dummy.m */; };
-		6344B41EEC0C6DC51F926E3E076B6C4F /* SCSCustomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD189083523B4233E33E19C562FC584F /* SCSCustomeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70A57857AAFD08E6286C319B3FDEF7C8 /* SCSTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271A6E9EC5459035D399BD664FF5F13 /* SCSTableHeaderView.m */; };
+		6684DA34731FFA8923E6B8AF7E79270A /* SCSCustomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A71F7D9B3B4A775D62BF1D2DC8A6B77 /* SCSCustomeButton.m */; };
+		6F29FB7930676A7F93F07D1309A53F6D /* SCSTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AEC1A9C549E02248C9DC875C8307598 /* SCSTableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		767D70B2893747591FE60165DA2D9500 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A666F7EF06E137BC9B188C3DE976B /* UIView+Frame.m */; };
+		795A2C8ED2A536468F9DC675C1E4E7E2 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A4520832EB5C7703166884DFBFE6CE /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A45C73F3587DBEE1C2F2399E35D821A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7B9ACB32B9218AD0FD9D097BD5C7E321 /* DDFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDFAC72EBDEB047115DCBF72E875EF /* DDFileManager-dummy.m */; };
-		851369DBD0D3DF5CB6DFB9C272E48784 /* DDFileModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB993D2F80391D68B2A2A8DC26E46C4 /* DDFileModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8703C11D4357EBB19F07CF488DB83E93 /* DDFileManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7197A6E996EF994FE09CFDA0ACDB67C1 /* DDFileManager.bundle */; };
-		9974DB3915BE22A4FED3370C2DD610C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A6DF71B29B16ADA201E7B8191DA24FD6 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2F2E77918D24EA96AC02216E09A169 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6FCCFCDA099C845D2F026675F63264F /* DDFileInforCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FACADC687E9AE4B48921692D363960C0 /* DDFileInforCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACEE63FA0919486BEFAB1C94AAE92612 /* DDFileInforCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF32541E9465D8BD4BBDA4E30CDD8920 /* DDFileInforCell.m */; };
-		EFBD33207A87FD53F4D775FEF9D45E23 /* DDFileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4D5E4EBFEA30912A829F78E05CD20 /* DDFileManagerViewController.m */; };
-		EFF409B41F8C7C4B0091C471 /* NSBundle+DDFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF409B21F8C7C4B0091C471 /* NSBundle+DDFileManager.h */; };
-		EFF409B51F8C7C4B0091C471 /* NSBundle+DDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF409B31F8C7C4B0091C471 /* NSBundle+DDFileManager.m */; };
-		F424C5991F4AD30DCEE5175AB72E55E3 /* DDFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA67B0C1AE1557149BE78770D8130E1D /* DDFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEFB68D83CDE1B61C3EAAAAA2BB438B7 /* SCSCustomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B081378DA79ECFB8F22DAF328CD223 /* SCSCustomeButton.m */; };
+		7A4FE84D248B1536A87097ACFA2D3C55 /* DDFileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9C1323D607341FC61AC959C960256 /* DDFileManagerViewController.m */; };
+		7A61D2DE490F2637C325B0B9690D3406 /* DDFileModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 073375534640E1C95F19BD7A9C2FE754 /* DDFileModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E77BDDE80617BA669D36A90ACD9263C /* DDFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E9E7F842505572AAA9F06247D6E05 /* DDFileModel.m */; };
+		97CF501B4B33530F0D2933B3026955FB /* DDFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9470DB9F9CB9EEE0BDC9B0CA35C58FCB /* DDFileManager-dummy.m */; };
+		B55EFCBC5F3F8C840D32B372C35414F6 /* NSBundle+DDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B6D2F8AD0C804B6088CE959003464 /* NSBundle+DDFileManager.m */; };
+		BCC59B15EB7E614336E6A2E4A5AAA538 /* NSBundle+DDFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9573BDC4F14353846D6BC7303B0E991 /* NSBundle+DDFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46A8130201822492ADCD0BC9B3CDC0A /* DDFileManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95E1CB18FA563C193E8B9E29338C15F1 /* DDFileManager.bundle */; };
+		D484F11AAE95475CB02C633D6182FF82 /* SCSTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F285F606D42AA48F9C83816266BD /* SCSTableHeaderView.m */; };
+		E57B8936A072D6B6831DB11FACDAA101 /* DDFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D89FA22AAAFF53188D7A8786EDC5CC /* DDFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAAEB3D0793D25DF0A88C4FB786A1ED6 /* SCSCustomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7419C88270BF097796708B7AD3EE7F /* SCSCustomeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		197AC4ACC84D7A881FC4CBA12D795C4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B1A7FAC54F35A5CA4F06EAF6B18B4FDD;
-			remoteInfo = "DDFileManager-DDFileManager";
-		};
 		E818925522B793C4BAD9AD6166E1FB26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 92BE7F50B54A2E956CEFCDACA76335C3;
+			remoteGlobalIDString = BB9B5291B60DBD03D3A3E284BFEAC621;
 			remoteInfo = DDFileManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0050A1EF2FD9C2D0FAEC1E9331E346DC /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		0252D4E22F8EB66BD37A5BF1F0399ABA /* Pods-DDFileManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDFileManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		081DFD1D94CD9A4354AB69E116D72568 /* DDFileModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDFileModel.m; sourceTree = "<group>"; };
-		11B081378DA79ECFB8F22DAF328CD223 /* SCSCustomeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SCSCustomeButton.m; sourceTree = "<group>"; };
-		139C71612511B1B11DDBEAB5A6E2FD65 /* Pods-DDFileManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DDFileManager_Tests.modulemap"; sourceTree = "<group>"; };
-		14FEB58BBFBDB1EDE4878E483164A024 /* ResourceBundle-DDFileManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DDFileManager-Info.plist"; sourceTree = "<group>"; };
-		1B1A3BE5DCD2FFA95AC31BF963D28B1A /* DDFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0418A33F11FD17AE23669EA2C6A4B922 /* Pods_DDFileManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDFileManager_Tests.framework; path = "Pods-DDFileManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		073375534640E1C95F19BD7A9C2FE754 /* DDFileModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileModel.h; path = DDFileManager/Classes/DDFileModel.h; sourceTree = "<group>"; };
+		12E5DCC1E0FF1885EE305416E6A69D26 /* DDFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDFileManager-umbrella.h"; sourceTree = "<group>"; };
+		139C71612511B1B11DDBEAB5A6E2FD65 /* Pods-DDFileManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DDFileManager_Tests.modulemap"; sourceTree = "<group>"; };
+		1A0583A91A62D3D592FA27B77950D927 /* DDFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DDFileManager.modulemap; sourceTree = "<group>"; };
+		1A71F7D9B3B4A775D62BF1D2DC8A6B77 /* SCSCustomeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SCSCustomeButton.m; sourceTree = "<group>"; };
+		1AEC1A9C549E02248C9DC875C8307598 /* SCSTableHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SCSTableHeaderView.h; sourceTree = "<group>"; };
+		1E7419C88270BF097796708B7AD3EE7F /* SCSCustomeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SCSCustomeButton.h; sourceTree = "<group>"; };
 		21620B30144CC786B4FB32CA7667F46A /* Pods-DDFileManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDFileManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		21F57D423549D357F0CC8935EC2DA720 /* Pods-DDFileManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDFileManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		293FC26EA6AC7312E3505AE0EBF9AB73 /* SCSTableHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SCSTableHeaderView.h; sourceTree = "<group>"; };
-		35E4D5E4EBFEA30912A829F78E05CD20 /* DDFileManagerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDFileManagerViewController.m; sourceTree = "<group>"; };
-		3FFDFAC72EBDEB047115DCBF72E875EF /* DDFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDFileManager-dummy.m"; sourceTree = "<group>"; };
+		2845F7FC3069A14531132B27EB868E70 /* DDFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDFileManager-prefix.pch"; sourceTree = "<group>"; };
+		2B0A666F7EF06E137BC9B188C3DE976B /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		4A361860A64267942218EFCEA7230E65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D431EB5412D525A3BB9639F838AE9CB /* Pods_DDFileManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDFileManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		534F558A8F3ACD8385B42BBB43F59555 /* DDFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDFileManager.xcconfig; sourceTree = "<group>"; };
+		51D89FA22AAAFF53188D7A8786EDC5CC /* DDFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileManager.h; path = DDFileManager/Classes/DDFileManager.h; sourceTree = "<group>"; };
 		55E5E304B63B1FB5AFEF3CB20B05A584 /* Pods-DDFileManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDFileManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		638FECD13808348E29F244E3E8D2221A /* Pods-DDFileManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDFileManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		63A4520832EB5C7703166884DFBFE6CE /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7197A6E996EF994FE09CFDA0ACDB67C1 /* DDFileManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDFileManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5DE23D885C122EBF7E4360955C0B92 /* Pods-DDFileManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDFileManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		9271A6E9EC5459035D399BD664FF5F13 /* SCSTableHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SCSTableHeaderView.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93ECCEA05807619FF696FCCEDBF0EAA4 /* DDFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDFileManager-prefix.pch"; sourceTree = "<group>"; };
+		7E0E9E7F842505572AAA9F06247D6E05 /* DDFileModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileModel.m; path = DDFileManager/Classes/DDFileModel.m; sourceTree = "<group>"; };
+		81862DDF9E2E4307C8C08C5C9FA54511 /* DDFileManagerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileManagerViewController.h; path = DDFileManager/Classes/DDFileManagerViewController.h; sourceTree = "<group>"; };
+		8F75F285F606D42AA48F9C83816266BD /* SCSTableHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SCSTableHeaderView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94475848171A64CA3E3B41A2F3B4F1B2 /* Pods-DDFileManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDFileManager_Example-dummy.m"; sourceTree = "<group>"; };
+		9470DB9F9CB9EEE0BDC9B0CA35C58FCB /* DDFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDFileManager-dummy.m"; sourceTree = "<group>"; };
+		95E1CB18FA563C193E8B9E29338C15F1 /* DDFileManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DDFileManager.bundle; path = DDFileManager/DDFileManager.bundle; sourceTree = "<group>"; };
+		981FA29FD0CCFFDFF0A49DFBBBA7A3BC /* DDFileInforCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileInforCell.h; path = DDFileManager/Classes/DDFileInforCell.h; sourceTree = "<group>"; };
 		9B2A742A234B14229C6F6CF0ABAD973F /* Pods-DDFileManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDFileManager_Example-resources.sh"; sourceTree = "<group>"; };
 		9BE59750918A72A2DDC0B6A6F2B96C92 /* Pods-DDFileManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDFileManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9F57EC3FB5A31114D258EC7F3784D721 /* DDFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DDFileManager.modulemap; sourceTree = "<group>"; };
 		A350FFA1BC25F839A14A5AAC9110BFF4 /* Pods-DDFileManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDFileManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		A58A4223927DCD963E53479FEB0BB88B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A790664B3C7FE3DA9C06E4C90C4C4E52 /* DDFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDFileManager-umbrella.h"; sourceTree = "<group>"; };
-		AD189083523B4233E33E19C562FC584F /* SCSCustomeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SCSCustomeButton.h; sourceTree = "<group>"; };
+		A418086B0A85ABB5ADC31B09796D8A88 /* DDFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDFileManager.xcconfig; sourceTree = "<group>"; };
+		A85B6D2F8AD0C804B6088CE959003464 /* NSBundle+DDFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+DDFileManager.m"; path = "DDFileManager/Classes/NSBundle+DDFileManager.m"; sourceTree = "<group>"; };
+		AFC93FDFD59FD78551C7616468FEFF85 /* DDFileInforCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileInforCell.m; path = DDFileManager/Classes/DDFileInforCell.m; sourceTree = "<group>"; };
 		B2B15AB140C3A3210B2B36A212A530D4 /* Pods-DDFileManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDFileManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B47FB36CC09642D1B063323F8C4BA8DD /* Pods-DDFileManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDFileManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BBB993D2F80391D68B2A2A8DC26E46C4 /* DDFileModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDFileModel.h; sourceTree = "<group>"; };
-		BF5F9F9060FA93D9314E610E48D1A787 /* DDFileManagerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDFileManagerViewController.h; sourceTree = "<group>"; };
+		B9573BDC4F14353846D6BC7303B0E991 /* NSBundle+DDFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+DDFileManager.h"; path = "DDFileManager/Classes/NSBundle+DDFileManager.h"; sourceTree = "<group>"; };
 		C11C59B9100CABD9293406F45B99B035 /* Pods-DDFileManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDFileManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C3C9E1C380099E7282B16FCF372134A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8BC30775512DD1BC1A7AD7BFB89D2B3 /* Pods-DDFileManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DDFileManager_Example.modulemap"; sourceTree = "<group>"; };
-		CB2F2E77918D24EA96AC02216E09A169 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C8BC30775512DD1BC1A7AD7BFB89D2B3 /* Pods-DDFileManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DDFileManager_Example.modulemap"; sourceTree = "<group>"; };
 		CB3E8A3D680CBC4118B9D21DEC60C019 /* Pods-DDFileManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDFileManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CCD106E681F1CF5C2AEDA7EEF4FC2638 /* Pods_DDFileManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDFileManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA67B0C1AE1557149BE78770D8130E1D /* DDFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDFileManager.h; sourceTree = "<group>"; };
-		EFF409B21F8C7C4B0091C471 /* NSBundle+DDFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+DDFileManager.h"; sourceTree = "<group>"; };
-		EFF409B31F8C7C4B0091C471 /* NSBundle+DDFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+DDFileManager.m"; sourceTree = "<group>"; };
+		DFA9C1323D607341FC61AC959C960256 /* DDFileManagerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileManagerViewController.m; path = DDFileManager/Classes/DDFileManagerViewController.m; sourceTree = "<group>"; };
+		E56A2AD5709C24B0CF2CF871BD7DB6F9 /* DDFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDFileManager.framework; path = DDFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E633205EA828B2F8D88F401BFE48A604 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE16E0F6490B200B327A4F8271C2E2CB /* Pods_DDFileManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDFileManager_Example.framework; path = "Pods-DDFileManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E1B560F51C5C207FB05499F0291945 /* Pods-DDFileManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDFileManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FACADC687E9AE4B48921692D363960C0 /* DDFileInforCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDFileInforCell.h; sourceTree = "<group>"; };
-		FF32541E9465D8BD4BBDA4E30CDD8920 /* DDFileInforCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDFileInforCell.m; sourceTree = "<group>"; };
 		FF6238C831D2BD95BC08A755536858AA /* Pods-DDFileManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDFileManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F39EC30EEB31A65AD78CEDDFA51D962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108A1FC42B6603B8646BF3FA1BA0CBE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50CAE5C05985DA227E42F1F74E0C97F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				45855BC2AD3126293B4520C3C65E1A11 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BFFB77815BF4D3F13631AAFD192B0CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9974DB3915BE22A4FED3370C2DD610C6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9241DDEA551C594E64230E121F960E0F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,29 +122,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FC04F91529E51BC649EA0A3756E7BED /* DDFileManager */ = {
+		0F841475A4BE5E6A069125E00A4B10D8 /* DDFileManager */ = {
 			isa = PBXGroup;
 			children = (
-				2ED5DAF10C391AF75820139BF1D899CD /* Classes */,
+				981FA29FD0CCFFDFF0A49DFBBBA7A3BC /* DDFileInforCell.h */,
+				AFC93FDFD59FD78551C7616468FEFF85 /* DDFileInforCell.m */,
+				51D89FA22AAAFF53188D7A8786EDC5CC /* DDFileManager.h */,
+				81862DDF9E2E4307C8C08C5C9FA54511 /* DDFileManagerViewController.h */,
+				DFA9C1323D607341FC61AC959C960256 /* DDFileManagerViewController.m */,
+				073375534640E1C95F19BD7A9C2FE754 /* DDFileModel.h */,
+				7E0E9E7F842505572AAA9F06247D6E05 /* DDFileModel.m */,
+				B9573BDC4F14353846D6BC7303B0E991 /* NSBundle+DDFileManager.h */,
+				A85B6D2F8AD0C804B6088CE959003464 /* NSBundle+DDFileManager.m */,
+				FE2C05957F9324356F9F2D4F4FBFFE11 /* Resources */,
+				B1B3465E1168E61A0B32ECB9A88EE565 /* SCSTableHeaderView */,
+				2F5CF7FEF7EC400F494A941BC665BFF1 /* Support Files */,
 			);
-			path = DDFileManager;
+			name = DDFileManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		2ED5DAF10C391AF75820139BF1D899CD /* Classes */ = {
+		1F6D81DA55D03DA1D8A1249C09D764E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EFF409B21F8C7C4B0091C471 /* NSBundle+DDFileManager.h */,
-				EFF409B31F8C7C4B0091C471 /* NSBundle+DDFileManager.m */,
-				FACADC687E9AE4B48921692D363960C0 /* DDFileInforCell.h */,
-				FF32541E9465D8BD4BBDA4E30CDD8920 /* DDFileInforCell.m */,
-				EA67B0C1AE1557149BE78770D8130E1D /* DDFileManager.h */,
-				BF5F9F9060FA93D9314E610E48D1A787 /* DDFileManagerViewController.h */,
-				35E4D5E4EBFEA30912A829F78E05CD20 /* DDFileManagerViewController.m */,
-				BBB993D2F80391D68B2A2A8DC26E46C4 /* DDFileModel.h */,
-				081DFD1D94CD9A4354AB69E116D72568 /* DDFileModel.m */,
-				957DEE367631D7DBD17DD1C2DD715008 /* SCSTableHeaderView */,
+				E56A2AD5709C24B0CF2CF871BD7DB6F9 /* DDFileManager.framework */,
+				EE16E0F6490B200B327A4F8271C2E2CB /* Pods_DDFileManager_Example.framework */,
+				0418A33F11FD17AE23669EA2C6A4B922 /* Pods_DDFileManager_Tests.framework */,
 			);
-			path = Classes;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F5CF7FEF7EC400F494A941BC665BFF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0583A91A62D3D592FA27B77950D927 /* DDFileManager.modulemap */,
+				A418086B0A85ABB5ADC31B09796D8A88 /* DDFileManager.xcconfig */,
+				9470DB9F9CB9EEE0BDC9B0CA35C58FCB /* DDFileManager-dummy.m */,
+				2845F7FC3069A14531132B27EB868E70 /* DDFileManager-prefix.pch */,
+				12E5DCC1E0FF1885EE305416E6A69D26 /* DDFileManager-umbrella.h */,
+				E633205EA828B2F8D88F401BFE48A604 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DDFileManager";
 			sourceTree = "<group>";
 		};
 		4AB8C4ACA8653306CBE85E5E8C745DF1 /* Pods-DDFileManager_Tests */ = {
@@ -180,59 +184,38 @@
 			path = "Target Support Files/Pods-DDFileManager_Tests";
 			sourceTree = "<group>";
 		};
-		4BB310DD61663901BBC4E10469C7E2DF /* Development Pods */ = {
+		62B321B4D8E840EF11F6E80B2A25D721 /* SCSCustomeButton */ = {
 			isa = PBXGroup;
 			children = (
-				C31187D1F9D83876BBD12A07635BF6ED /* DDFileManager */,
+				1E7419C88270BF097796708B7AD3EE7F /* SCSCustomeButton.h */,
+				1A71F7D9B3B4A775D62BF1D2DC8A6B77 /* SCSCustomeButton.m */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		536D044459D0C437BBB292995C40717D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9F57EC3FB5A31114D258EC7F3784D721 /* DDFileManager.modulemap */,
-				534F558A8F3ACD8385B42BBB43F59555 /* DDFileManager.xcconfig */,
-				3FFDFAC72EBDEB047115DCBF72E875EF /* DDFileManager-dummy.m */,
-				93ECCEA05807619FF696FCCEDBF0EAA4 /* DDFileManager-prefix.pch */,
-				A790664B3C7FE3DA9C06E4C90C4C4E52 /* DDFileManager-umbrella.h */,
-				A58A4223927DCD963E53479FEB0BB88B /* Info.plist */,
-				14FEB58BBFBDB1EDE4878E483164A024 /* ResourceBundle-DDFileManager-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DDFileManager";
+			name = SCSCustomeButton;
+			path = SCSCustomeButton;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4BB310DD61663901BBC4E10469C7E2DF /* Development Pods */,
+				E2BE1EE0CA41E577B2ECEBE8E6F1B829 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E2402475B73EA2D9C9B0D2D388FA285E /* Products */,
+				1F6D81DA55D03DA1D8A1249C09D764E2 /* Products */,
 				E293BCC5B9BEE2DDD5DC918BE1439915 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		957DEE367631D7DBD17DD1C2DD715008 /* SCSTableHeaderView */ = {
+		B1B3465E1168E61A0B32ECB9A88EE565 /* SCSTableHeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				293FC26EA6AC7312E3505AE0EBF9AB73 /* SCSTableHeaderView.h */,
-				9271A6E9EC5459035D399BD664FF5F13 /* SCSTableHeaderView.m */,
-				CB2F2E77918D24EA96AC02216E09A169 /* UIView+Frame.h */,
-				0050A1EF2FD9C2D0FAEC1E9331E346DC /* UIView+Frame.m */,
-				B73672AF87CEC0D86BE1500D5CBAD754 /* SCSCustomeButton */,
+				1AEC1A9C549E02248C9DC875C8307598 /* SCSTableHeaderView.h */,
+				8F75F285F606D42AA48F9C83816266BD /* SCSTableHeaderView.m */,
+				63A4520832EB5C7703166884DFBFE6CE /* UIView+Frame.h */,
+				2B0A666F7EF06E137BC9B188C3DE976B /* UIView+Frame.m */,
+				62B321B4D8E840EF11F6E80B2A25D721 /* SCSCustomeButton */,
 			);
-			path = SCSTableHeaderView;
-			sourceTree = "<group>";
-		};
-		B73672AF87CEC0D86BE1500D5CBAD754 /* SCSCustomeButton */ = {
-			isa = PBXGroup;
-			children = (
-				AD189083523B4233E33E19C562FC584F /* SCSCustomeButton.h */,
-				11B081378DA79ECFB8F22DAF328CD223 /* SCSCustomeButton.m */,
-			);
-			path = SCSCustomeButton;
+			name = SCSTableHeaderView;
+			path = DDFileManager/Classes/SCSTableHeaderView;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -241,16 +224,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C31187D1F9D83876BBD12A07635BF6ED /* DDFileManager */ = {
-			isa = PBXGroup;
-			children = (
-				0FC04F91529E51BC649EA0A3756E7BED /* DDFileManager */,
-				536D044459D0C437BBB292995C40717D /* Support Files */,
-			);
-			name = DDFileManager;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C3DAF82F6EC74CE260B87FE853A9C0CA /* Pods-DDFileManager_Example */ = {
@@ -279,17 +252,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E2402475B73EA2D9C9B0D2D388FA285E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7197A6E996EF994FE09CFDA0ACDB67C1 /* DDFileManager.bundle */,
-				1B1A3BE5DCD2FFA95AC31BF963D28B1A /* DDFileManager.framework */,
-				CCD106E681F1CF5C2AEDA7EEF4FC2638 /* Pods_DDFileManager_Example.framework */,
-				4D431EB5412D525A3BB9639F838AE9CB /* Pods_DDFileManager_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E293BCC5B9BEE2DDD5DC918BE1439915 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,30 +261,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E2BE1EE0CA41E577B2ECEBE8E6F1B829 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F841475A4BE5E6A069125E00A4B10D8 /* DDFileManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FE2C05957F9324356F9F2D4F4FBFFE11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95E1CB18FA563C193E8B9E29338C15F1 /* DDFileManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		03FE557B4A2A54B6E2F209B9CD262422 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173F078C728535A0E829BF2CE9D74B3D /* DDFileInforCell.h in Headers */,
+				25F0127536875834B0E79EDD125DD446 /* DDFileManager-umbrella.h in Headers */,
+				E57B8936A072D6B6831DB11FACDAA101 /* DDFileManager.h in Headers */,
+				3513183B7F30544190CEABB3AC41A571 /* DDFileManagerViewController.h in Headers */,
+				7A61D2DE490F2637C325B0B9690D3406 /* DDFileModel.h in Headers */,
+				BCC59B15EB7E614336E6A2E4A5AAA538 /* NSBundle+DDFileManager.h in Headers */,
+				EAAEB3D0793D25DF0A88C4FB786A1ED6 /* SCSCustomeButton.h in Headers */,
+				6F29FB7930676A7F93F07D1309A53F6D /* SCSTableHeaderView.h in Headers */,
+				795A2C8ED2A536468F9DC675C1E4E7E2 /* UIView+Frame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FF0BC66D0ECF5FC632F42C8CDA7997C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				058522CEDDA14DA083FCE038413B44AD /* Pods-DDFileManager_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8912B602135075889C7656309558139 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6FCCFCDA099C845D2F026675F63264F /* DDFileInforCell.h in Headers */,
-				1A561477A80859E391094B10D848D704 /* DDFileManager-umbrella.h in Headers */,
-				F424C5991F4AD30DCEE5175AB72E55E3 /* DDFileManager.h in Headers */,
-				5D613EC72B9D105764E5E3E4CBCB92B9 /* DDFileManagerViewController.h in Headers */,
-				851369DBD0D3DF5CB6DFB9C272E48784 /* DDFileModel.h in Headers */,
-				6344B41EEC0C6DC51F926E3E076B6C4F /* SCSCustomeButton.h in Headers */,
-				578D03AB1080BEBE0E5105B0DA9A505B /* SCSTableHeaderView.h in Headers */,
-				A6DF71B29B16ADA201E7B8191DA24FD6 /* UIView+Frame.h in Headers */,
-				EFF409B41F8C7C4B0091C471 /* NSBundle+DDFileManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +329,7 @@
 			);
 			name = "Pods-DDFileManager_Tests";
 			productName = "Pods-DDFileManager_Tests";
-			productReference = 4D431EB5412D525A3BB9639F838AE9CB /* Pods_DDFileManager_Tests.framework */;
+			productReference = 0418A33F11FD17AE23669EA2C6A4B922 /* Pods_DDFileManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		369EFBB6F69C0EF3C267A23CE93870D6 /* Pods-DDFileManager_Example */ = {
@@ -369,44 +347,26 @@
 			);
 			name = "Pods-DDFileManager_Example";
 			productName = "Pods-DDFileManager_Example";
-			productReference = CCD106E681F1CF5C2AEDA7EEF4FC2638 /* Pods_DDFileManager_Example.framework */;
+			productReference = EE16E0F6490B200B327A4F8271C2E2CB /* Pods_DDFileManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		92BE7F50B54A2E956CEFCDACA76335C3 /* DDFileManager */ = {
+		BB9B5291B60DBD03D3A3E284BFEAC621 /* DDFileManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BAEA075D007EE75E89EC4E648CBFA33 /* Build configuration list for PBXNativeTarget "DDFileManager" */;
+			buildConfigurationList = 009D8717728361880C9482F394983F1B /* Build configuration list for PBXNativeTarget "DDFileManager" */;
 			buildPhases = (
-				9829A2E15368DA7A251235451D64CD4B /* Sources */,
-				5BFFB77815BF4D3F13631AAFD192B0CC /* Frameworks */,
-				CE26EB90400DDFCC28B32FE98C065B6C /* Resources */,
-				A8912B602135075889C7656309558139 /* Headers */,
+				F328D4919618E02216F2DCBAD297C1CB /* Sources */,
+				2F39EC30EEB31A65AD78CEDDFA51D962 /* Frameworks */,
+				03FE557B4A2A54B6E2F209B9CD262422 /* Headers */,
+				CC09671A2E4CFD9CCD91C748F8879027 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C09D9BBDB9E9FB340713161BDD34B39D /* PBXTargetDependency */,
 			);
 			name = DDFileManager;
 			productName = DDFileManager;
-			productReference = 1B1A3BE5DCD2FFA95AC31BF963D28B1A /* DDFileManager.framework */;
+			productReference = E56A2AD5709C24B0CF2CF871BD7DB6F9 /* DDFileManager.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		B1A7FAC54F35A5CA4F06EAF6B18B4FDD /* DDFileManager-DDFileManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD9B46E77020A4D7776080160D579FB7 /* Build configuration list for PBXNativeTarget "DDFileManager-DDFileManager" */;
-			buildPhases = (
-				E8D72602C0DD8D93D2E78D739A041B73 /* Sources */,
-				9241DDEA551C594E64230E121F960E0F /* Frameworks */,
-				7928D35DC3C91973F84124DF7D5769BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DDFileManager-DDFileManager";
-			productName = "DDFileManager-DDFileManager";
-			productReference = 7197A6E996EF994FE09CFDA0ACDB67C1 /* DDFileManager.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -425,12 +385,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E2402475B73EA2D9C9B0D2D388FA285E /* Products */;
+			productRefGroup = 1F6D81DA55D03DA1D8A1249C09D764E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92BE7F50B54A2E956CEFCDACA76335C3 /* DDFileManager */,
-				B1A7FAC54F35A5CA4F06EAF6B18B4FDD /* DDFileManager-DDFileManager */,
+				BB9B5291B60DBD03D3A3E284BFEAC621 /* DDFileManager */,
 				369EFBB6F69C0EF3C267A23CE93870D6 /* Pods-DDFileManager_Example */,
 				08D6B6494B0F398056082124587FA123 /* Pods-DDFileManager_Tests */,
 			);
@@ -438,18 +397,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7928D35DC3C91973F84124DF7D5769BD /* Resources */ = {
+		CC09671A2E4CFD9CCD91C748F8879027 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE26EB90400DDFCC28B32FE98C065B6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8703C11D4357EBB19F07CF488DB83E93 /* DDFileManager.bundle in Resources */,
+				D46A8130201822492ADCD0BC9B3CDC0A /* DDFileManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,96 +424,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9829A2E15368DA7A251235451D64CD4B /* Sources */ = {
+		F328D4919618E02216F2DCBAD297C1CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEE63FA0919486BEFAB1C94AAE92612 /* DDFileInforCell.m in Sources */,
-				7B9ACB32B9218AD0FD9D097BD5C7E321 /* DDFileManager-dummy.m in Sources */,
-				EFBD33207A87FD53F4D775FEF9D45E23 /* DDFileManagerViewController.m in Sources */,
-				2EEA53C1EF19BC0DFE90A2DF57A0DFE3 /* DDFileModel.m in Sources */,
-				EFF409B51F8C7C4B0091C471 /* NSBundle+DDFileManager.m in Sources */,
-				FEFB68D83CDE1B61C3EAAAAA2BB438B7 /* SCSCustomeButton.m in Sources */,
-				70A57857AAFD08E6286C319B3FDEF7C8 /* SCSTableHeaderView.m in Sources */,
-				20793CA4AD9E5E6A35E4B0747D5A9D10 /* UIView+Frame.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8D72602C0DD8D93D2E78D739A041B73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				46E5DF5E8730EFAD3C62345C40C0B106 /* DDFileInforCell.m in Sources */,
+				97CF501B4B33530F0D2933B3026955FB /* DDFileManager-dummy.m in Sources */,
+				7A4FE84D248B1536A87097ACFA2D3C55 /* DDFileManagerViewController.m in Sources */,
+				7E77BDDE80617BA669D36A90ACD9263C /* DDFileModel.m in Sources */,
+				B55EFCBC5F3F8C840D32B372C35414F6 /* NSBundle+DDFileManager.m in Sources */,
+				6684DA34731FFA8923E6B8AF7E79270A /* SCSCustomeButton.m in Sources */,
+				D484F11AAE95475CB02C633D6182FF82 /* SCSTableHeaderView.m in Sources */,
+				767D70B2893747591FE60165DA2D9500 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C09D9BBDB9E9FB340713161BDD34B39D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DDFileManager-DDFileManager";
-			target = B1A7FAC54F35A5CA4F06EAF6B18B4FDD /* DDFileManager-DDFileManager */;
-			targetProxy = 197AC4ACC84D7A881FC4CBA12D795C4D /* PBXContainerItemProxy */;
-		};
 		EBBB3066994802BC8EA631DBEB5BECB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DDFileManager;
-			target = 92BE7F50B54A2E956CEFCDACA76335C3 /* DDFileManager */;
+			target = BB9B5291B60DBD03D3A3E284BFEAC621 /* DDFileManager */;
 			targetProxy = E818925522B793C4BAD9AD6166E1FB26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		273597C280CBB6A84E16FA165E2D802B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534F558A8F3ACD8385B42BBB43F59555 /* DDFileManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DDFileManager/DDFileManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDFileManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DDFileManager/DDFileManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DDFileManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		29A54C471DAC8517A0D80D52D8F31F83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534F558A8F3ACD8385B42BBB43F59555 /* DDFileManager.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DDFileManager";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/DDFileManager/ResourceBundle-DDFileManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = DDFileManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -601,53 +491,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4EE999B943BB15F2CBD3462B545EB388 /* Release */ = {
+		2033B3AACF895F85D4AD6FA4988C0EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB3E8A3D680CBC4118B9D21DEC60C019 /* Pods-DDFileManager_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DDFileManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DDFileManager_Example/Pods-DDFileManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DDFileManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		544C34E375E74ED7E9A33D8B58BAE1E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF6238C831D2BD95BC08A755536858AA /* Pods-DDFileManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = 21F57D423549D357F0CC8935EC2DA720 /* Pods-DDFileManager_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -661,18 +516,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DDFileManager_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DDFileManager_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DDFileManager_Tests/Pods-DDFileManager_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DDFileManager_Example/Pods-DDFileManager_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DDFileManager_Tests;
+				PRODUCT_NAME = Pods_DDFileManager_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -681,24 +536,40 @@
 			};
 			name = Debug;
 		};
-		5877FBBB82A1AFBB699E8E4D30741BBC /* Debug */ = {
+		304D3DEFFF19F296076B9C89A67882F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534F558A8F3ACD8385B42BBB43F59555 /* DDFileManager.xcconfig */;
+			baseConfigurationReference = A418086B0A85ABB5ADC31B09796D8A88 /* DDFileManager.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DDFileManager";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/DDFileManager/ResourceBundle-DDFileManager-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DDFileManager/DDFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDFileManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DDFileManager/DDFileManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = DDFileManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -734,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -742,9 +613,45 @@
 			};
 			name = Release;
 		};
-		819851438A7891220F88ADFA50ED8CB2 /* Release */ = {
+		3A3EA104B214B16CB17AB5012B76C79D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534F558A8F3ACD8385B42BBB43F59555 /* DDFileManager.xcconfig */;
+			baseConfigurationReference = FF6238C831D2BD95BC08A755536858AA /* Pods-DDFileManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DDFileManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDFileManager_Tests/Pods-DDFileManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DDFileManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73412819970F93F6941645DCB0862F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A418086B0A85ABB5ADC31B09796D8A88 /* DDFileManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -768,13 +675,50 @@
 				PRODUCT_NAME = DDFileManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		9C2B134392BA783A59838ED1A68E33FA /* Release */ = {
+		9801BEA6D2EF6065248FCBE281C4BD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3E8A3D680CBC4118B9D21DEC60C019 /* Pods-DDFileManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DDFileManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDFileManager_Example/Pods-DDFileManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DDFileManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE98810E5A1303820A9F9FAC21DB21A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3E1B560F51C5C207FB05499F0291945 /* Pods-DDFileManager_Tests.release.xcconfig */;
 			buildSettings = {
@@ -792,7 +736,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-DDFileManager_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DDFileManager_Tests/Pods-DDFileManager_Tests.modulemap";
@@ -810,59 +754,23 @@
 			};
 			name = Release;
 		};
-		C99934C72C654FCA6FAFAFCDF3AD8378 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21F57D423549D357F0CC8935EC2DA720 /* Pods-DDFileManager_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DDFileManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DDFileManager_Example/Pods-DDFileManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DDFileManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		009D8717728361880C9482F394983F1B /* Build configuration list for PBXNativeTarget "DDFileManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				304D3DEFFF19F296076B9C89A67882F9 /* Debug */,
+				73412819970F93F6941645DCB0862F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BAEA075D007EE75E89EC4E648CBFA33 /* Build configuration list for PBXNativeTarget "DDFileManager" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				273597C280CBB6A84E16FA165E2D802B /* Debug */,
-				819851438A7891220F88ADFA50ED8CB2 /* Release */,
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -870,8 +778,8 @@
 		7BC1241272D0B40BC6E7A934A26E5A3A /* Build configuration list for PBXNativeTarget "Pods-DDFileManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C99934C72C654FCA6FAFAFCDF3AD8378 /* Debug */,
-				4EE999B943BB15F2CBD3462B545EB388 /* Release */,
+				2033B3AACF895F85D4AD6FA4988C0EB6 /* Debug */,
+				9801BEA6D2EF6065248FCBE281C4BD55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -879,17 +787,8 @@
 		BA5FCF860DCED5D5ACB02321A8340643 /* Build configuration list for PBXNativeTarget "Pods-DDFileManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				544C34E375E74ED7E9A33D8B58BAE1E4 /* Debug */,
-				9C2B134392BA783A59838ED1A68E33FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD9B46E77020A4D7776080160D579FB7 /* Build configuration list for PBXNativeTarget "DDFileManager-DDFileManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5877FBBB82A1AFBB699E8E4D30741BBC /* Debug */,
-				29A54C471DAC8517A0D80D52D8F31F83 /* Release */,
+				3A3EA104B214B16CB17AB5012B76C79D /* Debug */,
+				CE98810E5A1303820A9F9FAC21DB21A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

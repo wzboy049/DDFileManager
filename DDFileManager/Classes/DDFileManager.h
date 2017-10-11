@@ -6,11 +6,11 @@
 //  Copyright © 2017年 王志斌. All rights reserved.
 //
 
-#ifndef DDFileManager_h
-#define DDFileManager_h
+//#ifndef DDFileManager_h
+//#define DDFileManager_h
 
 
-#import "DDFileInforCell.h"
 #import "DDFileManagerViewController.h"
 
-#endif /* DDFileManager_h */
+//#endif /* DDFileManager_h */
+

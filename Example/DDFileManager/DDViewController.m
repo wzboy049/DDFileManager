@@ -8,12 +8,29 @@
 
 #import "DDViewController.h"
 
-#import <DDFileManager/DDFileManager-umbrella.h>
 
+//#import "DDFile"
+
+
+#import <DDFileManager/DDFileManager.h>
+
+//#import <DDFileManager/DDFileModel.h>
+
+//#import <DDFileManager/DDFileManager.h>
+
+//#import <DDFileManager/DDFileManager-umbrella.h>
+//#import "DDFileManager.h"
+#import "DDFileManagerViewController.h"
+
+//#import <DDFileManager/UIView+Frame.h>
+
+#import <DDFileManager/UIView+Frame.h>
 
 @interface DDViewController ()
 
+
 @end
+
 
 @implementation DDViewController
 
@@ -24,7 +41,10 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self.navigationController pushViewController:[DDFileManagerViewController new] animated:true];
+    
+    DDFileManagerViewController *fvc = [DDFileManagerViewController new];
+//    fvc.startType = DDStartFolderTypeDocument;//如果只允许用户进入文档,就设置这个
+    [self.navigationController pushViewController:fvc animated:true];
 }
 
 @end
